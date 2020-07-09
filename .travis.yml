@@ -1,7 +1,7 @@
 language: python
 
 install:
-- pip install sphinx sphinx_rtd_theme mock
+- pip install sphinx sphinx_rtd_theme
 
 script:
 - sphinx-build -Wv docs/source docs/html
